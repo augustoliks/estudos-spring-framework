@@ -8,10 +8,11 @@
 		<version>2.1.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+
 	<groupId>com.example</groupId>
-	<artifactId>01-InjecaoDependencias</artifactId>
+	<artifactId>01-injecao-de-dependencias</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>01-InjecaoDependencias</name>
+	<name>01-injecao-de-dependencias</name>
 	<description>Injeção de depêndencias utilizando Beans do Framework Spring</description>
 
 	<properties>
@@ -20,15 +21,11 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>4.3.5.RELEASE</version>
 		</dependency>
 
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
 	</dependencies>
 
 	<build>
