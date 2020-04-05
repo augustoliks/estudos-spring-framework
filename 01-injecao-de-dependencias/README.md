@@ -94,7 +94,9 @@ public class Impressor {
 > Quase sempre as dependências são definidas com Interfaces, contribuindo ainda mais com o desacoplamento do código.
 
 
-# Estrutura do Projeto
+# Sobre o Projeto
+
+- Estrutura:
 
 ```
 └── src/main/java/br/augustoliks
@@ -113,6 +115,28 @@ public class Impressor {
     │       └── Pessoa.java
     └── services
         └── Impressor.java
+```
+
+- Saída:
+
+```
+Gaucho Nutella:
+	- falaEnrolado:false
+	- jogaFutebol:false
+	- ouveBaitaca:false
+	- tomaChimarrao: true
+Gaucho Raiz:
+	- falaEnrolado:true
+	- jogaFutebol:false
+	- ouveBaitaca:true
+	- tomaChimarrao: true
+Carioca Raiz:
+	- jogaFutebol:true
+	- vaiPraPraia:true
+
+Carioca Nutella:
+	- jogaFutebol:false
+	- vaiPraPraia:true
 ```
 
 # Referências
