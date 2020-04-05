@@ -142,3 +142,6 @@ Carioca Nutella:
 # Referências
 
 - https://blog.algaworks.com/injecao-de-dependencias-com-spring/
+- https://dzone.com/articles/what-is-a-spring-context
+- https://pt.wikipedia.org/wiki/Invers%C3%A3o_de_controle
+- https://www.devmedia.com.br/inversao-de-controle-x-injecao-de-dependencia/18763
