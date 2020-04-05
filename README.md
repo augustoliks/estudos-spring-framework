@@ -1,6 +1,6 @@
 # estudos-spring-framework
 
-Todos os _Frameworks_, tem como foco, agilizar o processo de desenvolvimento de uma área de interesse em específico. Diferentemente de outros Frameworks de mercado, como o [Django](https://www.djangoproject.com/) e [Rails](https://rubyonrails.org/), que são frameworks compostos de funcionalidades atinentes ao ambiente Web, o Spring é uma __família__ de _Frameworks_. Há diversas áreas que o Spring tem suporte, como por exemplo Microserviços, Cloud, Aplicativos Web, Automação de tarefas [entre outros](/https://spring.io/).
+Todos os _Frameworks_, tem como foco, agilizar o processo de desenvolvimento de uma área de interesse em específico. Diferentemente de outros Frameworks de mercado, como o [Django](https://www.djangoproject.com/) e [Rails](https://rubyonrails.org/), que são frameworks compostos de funcionalidades atinentes ao ambiente Web, o Spring é uma __família__ de _Frameworks_. Há diversas áreas que o Spring tem suporte, como por exemplo Microserviços, Cloud, Aplicativos Web, Automação de tarefas [entre outros](https://spring.io/).
 
 Por se tratar de uma família de Framework Full-Stack, o Spring dispõem ao desenvolvedor, uma notável familiaridade no que diz a respeito a integração, configuração e monitoração. Devido estes atributos, o Framework pode (de certa forma) ser encarado como uma Plataforma de Desenvolvimento.
 
