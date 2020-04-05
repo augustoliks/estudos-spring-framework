@@ -9,8 +9,8 @@ A Injeção de Dependencia é um tipo de Inversão de Controle. Basicamente ela 
 Em resumo, para trabalharmos com Injeção de Depêndencias, precisamos fundamentalmente de três componentes:
 
 - Contêiner Gerenciador de Contexto;
-- As depêndencias instanciadas, denominadas _Beans_.; e
-- A Classe que receberá a Injeção. 
+- Depêndencias instanciadas, denominadas _Beans_.; e
+- Classe que receberá a Injeção. 
 
 
 # Spring em Ação
