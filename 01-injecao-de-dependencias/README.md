@@ -36,7 +36,7 @@ public static void main(String[] args) {
 
 ## Criação dos Beans 
 
-Para popular o Conteiner com os _Beans_, deve-se anotar com `@Bean` as funções que tem como o retorno as instancias prontas de depêndencias que serão injetadas. Caso dois Beans tiverem a mesmo tipo, deve-se anotar `@Qualifier("ID-DO-BEAN")` para distinguir no ato da injeção.
+Para popular o Conteiner com os _Beans_, deve-se anotar com `@Bean` as funções que tem como o retorno as instancias prontas de depêndencias que serão injetadas. Caso dois Beans tiverem a mesmo tipo, deve-se anotar `@Qualifier("ID-DO-BEAN")` para distinguir no ato da injeção. 
 
 ```java
 @Component
@@ -54,6 +54,8 @@ public class Factories {
     }
 ...
 ```
+
+O que define o _Bean_ não é o tipo de retorno dos metódos produtores, mas sim a Interface que a classe da instância produzida implementa. Caso a instância produzida não implementar nenhuma interface, o tipo dela que definirá o _Bean_.
 
 
 ## Classe que recebe a Injeção
